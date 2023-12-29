@@ -1,0 +1,942 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./public/favicon_io/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./public/favicon_io/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./public/favicon_io/favicon-16x16ng"
+    />
+    <link rel="manifest" href="./public/favicon_io/site.webmanifest" />
+    <!-- main css -->
+    <link rel="stylesheet" href="./css/style.min.css" />
+    <title>Exclusive</title>
+    <style>
+        html,
+        body {
+            position: relative;
+            height: 100%;
+        }
+
+        body {
+            background: #eee;
+            font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+            font-size: 14px;
+            color: #000;
+            margin: 0;
+            padding: 0;
+        }
+
+        swiper-container {
+            width: 100%;
+            height: 100%;
+        }
+
+        swiper-slide {
+            text-align: center;
+            font-size: 18px;
+            
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        swiper-slide img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    </style>
+  </head>
+  <body>
+    <!-- -------- Header start  ------- -->
+    <header>
+      <div class="language-wrapper">
+        <div class="sale">
+          <p>
+            Summer Sale For All Swim Suits And Free Express Delivery - OFF 50%!
+          </p>
+          <p><a class="shopnow" href="#">ShopNow</a></p>
+        </div>
+        <div class="language">
+          <p>English</p>
+          <img src="./assets/images/DropDown.svg" alt="" />
+        </div>
+      </div>
+      <div class="container">
+        <nav class="nav">
+          <a href="../index.html" class="nav__logo"
+            ><img src="./assets/images/Logo (1).svg" alt=""
+          /></a>
+          <ul class="nav__list">
+            <li class="nav__list--item">
+              <a href="../index.html" class="nav__list--item-link brd">Home</a>
+            </li>
+            <li class="nav__list--item">
+              <a href="#" class="nav__list--item-link">Contact</a>
+            </li>
+            <li class="nav__list--item">
+              <a href="#" class="nav__list--item-link">About</a>
+            </li>
+            <li class="nav__list--item">
+              <a href="./pages/signup.html" class="nav__list--item-link">Sign Up</a>
+            </li>
+          </ul>
+          <div class="search">
+             <input type="text" placeholder="What are you looking for?">
+             <img src="./assets/images/search.svg" alt="">
+            </div>
+            <div class="basket-header">
+              <a href="./pages/wishlist.html"><img src="./assets/images/like.svg" alt=""></a>
+              <a href="./pages/cart.html"><img src="./assets/images/basket.svg" alt=""></a>
+              <a href="./pages/account.html"><img src="./assets/images/user.svg" alt=""></a>
+             
+
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <!-- -------- Header end  ------- -->
+
+    <main>
+       <!-------------------intro section start ----------------->
+      <section id="intro">
+       <div class="container">
+        <div class="intro-wrapper">
+           <div class="intro-nav">
+                 <nav>
+                  <ul class="intro-ul">
+                   <li><a  class="intro-nav-a" href="#">Woman’s Fashion</a><img src="./assets/images/DropDown (1).svg" alt=""></li>
+                   <li><a class="intro-nav-a"href="#">Men’s Fashion</a><img src="./assets/images/DropDown (1).svg" alt=""></li>
+                   <li><a class="intro-nav-a"href="#">Electronics</a></li>
+                   <li><a class="intro-nav-a"href="#">Home & Lifestyle</a></li>
+                   <li><a class="intro-nav-a"href="#">Medicine</a></li>
+                   <li><a class="intro-nav-a"href="#">Sports & Outdoor</a></li>
+                   <li><a class="intro-nav-a"href="#">Baby’s & Toys</a></li>
+                   <li><a class="intro-nav-a"href="#">Groceries & Pets</a></li>
+                   <li><a class="intro-nav-a"href="#">Health & Beauty</a></li>
+                  </ul>
+                 </nav>
+           </div>
+           <div class="slider">
+               <swiper-container class="mySwiper" pagination="true">
+                            <swiper-slide class="bcg-img"><a class="bcg-img-link" href="#">Shop Now <img src="./assets/images/icons arrow-right.svg" alt=""></a></swiper-slide>
+                            <swiper-slide class="bcg-img"><a class="bcg-img-link" href="#">Shop Now <img src="./assets/images/icons arrow-right.svg" alt=""></a></swiper-slide>
+                            <swiper-slide class="bcg-img"><a class="bcg-img-link" href="#">Shop Now <img src="./assets/images/icons arrow-right.svg" alt=""></a></swiper-slide>
+                            <swiper-slide class="bcg-img"><a class="bcg-img-link" href="#">Shop Now <img src="./assets/images/icons arrow-right.svg" alt=""></a></swiper-slide>
+                            <swiper-slide class="bcg-img"><a class="bcg-img-link" href="#">Shop Now <img src="./assets/images/icons arrow-right.svg" alt=""></a></swiper-slide>
+                          
+                        </swiper-container>
+           </div>
+        </div>
+       </div>
+      </section>
+      <!-------------------intro section end ----------------->
+      <!-------------------most section start ---------------->
+      <section id="most">
+         <div class="container">
+          <div class="most-wrapper">
+            <div class="today-wrapper">
+            <div class="today"> </div>
+           <h3>Today’s</h3>
+            </div>
+           <div class="days-wrapper">
+            <h2>Most Sales</h2>
+           
+           <div class="days">
+            <div>
+            <p>Days</p>
+            <h3>03 <span>:</span></h3>
+          </div>
+          
+          <div>
+            <p>Hours</p>
+            <h3>23 <span>:</span></h3>
+          </div>
+           
+          <div>
+            <p>Minutes</p>
+            <h3>19 <span>:</span></h3>
+          </div>
+          
+          <div>
+            <p>Seconds</p>
+            <h3>56</h3>
+          </div>
+          
+           </div>
+           </div>
+          </div>
+          <div class="cards">
+          <div class="card">
+                            <div class="card__img">
+                                <div class="card__img-icon">
+                                    <img src="./assets/images/Discount percent.svg" alt="" class="img">
+                                    <img src="./assets/images/like.svg" alt="" class="img">
+                                    <img src="./assets/images/Fill Eye (1).svg" alt="" class="img">
+                                    <img src="./assets/images/g92-2-500x500 1.jpg" alt="" class="img">
+
+                                </div>
+                                <a href="./pages/detal.html"><button class="btn-add">Add To Cart</button></a>
+                            </div>
+                            <div class="card__text">
+                                <h1>HAVIT HV-G92 Gamepad</h1>
+                                <span>
+                                    <p>$120</p>
+                                    <p>$160</p>
+                                </span>
+                                <div class="star"><img src="./assets/images/Five star.svg" alt="">
+                                    <p>(88)</p>
+                                </div>
+                            </div>
+                        </div>
+                         <div class="card">
+                            <div class="card__img">
+                                <div class="card__img-icon">
+                                    <img src="./assets/images/Discount percent (1).svg" alt="" class="img">
+                                    <img src="./assets/images/like.svg" alt="" class="img">
+                                    <img src="./assets/images/Fill Eye (1).svg" alt="" class="img">
+                                    <img src="./assets/images/ak-900-01-500x500 1 (1).jpg" alt="" class="img">
+
+                                </div>
+                                <a href="./pages/detal.html"><button class="btn-add">Add To Cart</button></a>
+                            </div>
+                            <div class="card__text">
+                                <h1>AK-900 Wired Keyboard</h1>
+                                <span>
+                                    <p>$960</p>
+                                    <p>$1160</p>
+                                </span>
+                                <div class="star"><img src="./assets/images/Four Star.svg" alt="">
+                                    <p>(75)</p>
+                                </div>
+                            </div>
+                        </div>
+                         <div class="card">
+                            <div class="card__img">
+                                <div class="card__img-icon">
+                                    <img src="./assets/images/Discount percent (2).svg" alt="" class="img">
+                                    <img src="./assets/images/like.svg" alt="" class="img">
+                                    <img src="./assets/images/Fill Eye (1).svg" alt="" class="img">
+                                    <img src="./assets/images/g27cq4-500x500 1.jpg" alt="" class="img">
+
+                                </div>
+                                <button class="btn-add">Add To Cart</button>
+                            </div>
+                            <div class="card__text">
+                                <h1>IPS LCD Gaming Monitor</h1>
+                                <span>
+                                    <p>$370</p>
+                                    <p>$400</p>
+                                </span>
+                                <div class="star"><img src="./assets/images/Five star.svg" alt="">
+                                    <p>(99)</p>
+                                </div>
+                            </div>
+                        </div>
+                         <div class="card">
+                            <div class="card__img">
+                                <div class="card__img-icon">
+                                    <img src="./assets/images/Discount percent (3).svg" alt="" class="img">
+                                    <img src="./assets/images/like.svg" alt="" class="img">
+                                    <img src="./assets/images/Fill Eye (1).svg" alt="" class="img">
+                                    <img src="./assets/images/sam-moghadam-khamseh-kvmdsTrGOBM-unsplash 1.jpg" alt="" class="stul">
+
+                                </div>
+                                <a href="./pages/detal.html"><button class="btn-add">Add To Cart</button></a>
+                            </div>
+                            <div class="card__text">
+                                <h1>S-Series Comfort Chair </h1>
+                                <span>
+                                    <p>$375</p>
+                                    <p>$400</p>
+                                </span>
+                                <div class="star"><img src="./assets/images/Four Half Star.svg" alt="">
+                                    <p>(99)</p>
+                                </div>
+                            </div>
+                        </div>
+                         <div class="card">
+                            <div class="card__img">
+                                <div class="card__img-icon">
+                                    <img src="./assets/images/Discount percent.svg" alt="" class="img">
+                                    <img src="./assets/images/like.svg" alt="" class="img">
+                                    <img src="./assets/images/Fill Eye (1).svg" alt="" class="img">
+                                    <img src="./assets/images/g92-2-500x500 1.jpg" alt="" class="img">
+
+                                </div>
+                                <a href="./pages/detal.html"><button class="btn-add">Add To Cart</button></a>
+                            </div>
+                            <div class="card__text">
+                                <h1>HAVIT HV-G92 Gamepad</h1>
+                                <span>
+                                    <p>$120</p>
+                                    <p>$160</p>
+                                </span>
+                                <div class="star"><img src="./assets/images/Five star.svg" alt="">
+                                    <p>(88)</p>
+                                </div>
+                            </div>
+                        </div>
+                         <div class="card">
+                            <div class="card__img">
+                                <div class="card__img-icon">
+                                    <img src="./assets/images/Discount percent.svg" alt="" class="img">
+                                    <img src="./assets/images/like.svg" alt="" class="img">
+                                    <img src="./assets/images/Fill Eye (1).svg" alt="" class="img">
+                                    <img src="./assets/images/g92-2-500x500 1.jpg" alt="" class="img">
+
+                                </div>
+                                <a href="./pages/detal.html"><button class="btn-add">Add To Cart</button></a>
+                            </div>
+                            <div class="card__text">
+                                <h1>HAVIT HV-G92 Gamepad</h1>
+                                <span>
+                                    <p>$120</p>
+                                    <p>$160</p>
+                                </span>
+                                <div class="star"><img src="./assets/images/Five star.svg" alt="">
+                                    <p>(88)</p>
+                                </div>
+                            </div>
+                        </div>
+          </div>
+               <div class="view-btn">
+                <button>View All Products</button>
+               </div>
+         </div>
+      </section>
+      <div class="container">
+        <div class="most-section-end"></div>
+      </div>
+      <!-------------------most section end ---------------->
+
+      <!-------------------Categories section start ---------------->
+      <section id="categories">
+        <div class="container">
+            <div class="categories-wrapper">
+            <div class="today-wrapper">
+            <div class="today"> </div>
+           <h3>Categories</h3>
+            </div>
+            <div class="browse">
+               <h1>Browse By Category</h1>
+            </div>
+            <div class="categories-cards">
+               <button><img src="./assets/images/Category-CellPhone.svg" alt="">Phones</button>
+               <button><img src="./assets/images/Category-Computer.svg" alt="">Computers</button>
+               <button><img src="./assets/images/Category-SmartWatch.svg" alt="">SmartWatch</button>
+               <button><img src="./assets/images/Category-Camera (1).svg" alt="">Camera</button>
+               <button><img src="./assets/images/Category-Headphone.svg" alt="">HeadPhones</button>
+               <button><img src="./assets/images/Category-Gamepad.svg" alt="">Gaming</button>
+            </div>
+            </div>
+        </div>
+
+      </section>
+
+       <div class="container">
+        <div class="most-section-end"></div>
+      </div>
+      <!-------------------Categories section end ---------------->
+
+       <!-------------------Best section start ---------------->
+       <section id="best">
+         <div class="container">
+            <div class="best-wrapper">
+                <div class="today-wrapper">
+            <div class="today"> </div>
+           <h3>This Month</h3>
+            </div>
+            <div class="best">
+                <h1>Best Selling Products</h1>
+                <button>View All</button>
+            </div>
+
+               <div class="cards">
+        
+                         <div class="card">
+                            <div class="card__img">
+                                <div class="card__img-icon">
+                                    <img src="./assets/images/Discount percent (2).svg" alt="" class="img">
+                                    <img src="./assets/images/like.svg" alt="" class="img">
+                                    <img src="./assets/images/Fill Eye (1).svg" alt="" class="img">
+                                    <img src="./assets/images/672462_ZAH9D_5626_002_100_0000_Light-The-North-Face-x-Gucci-coat 1.jpg" alt="" class="img">
+
+                                </div>
+                                <a href="./pages/detal.html"><button class="btn-add">Add To Cart</button></a>
+                            </div>
+                            <div class="card__text">
+                                <h1>The north coat</h1>
+                                <span>
+                                    <p>$260</p>
+                                    <p>$360</p>
+                                </span>
+                                <div class="star"><img src="./assets/images/Five star.svg" alt="">
+                                    <p>(65)</p>
+                                </div>
+                            </div>
+                        </div>
+                         <div class="card">
+                            <div class="card__img">
+                                <div class="card__img-icon">
+                                    <img src="./assets/images/Discount percent (3).svg" alt="" class="img">
+                                    <img src="./assets/images/like.svg" alt="" class="img">
+                                    <img src="./assets/images/Fill Eye (1).svg" alt="" class="img">
+                                   <img src="./assets/images/547953_9C2ST_8746_001_082_0000_Light-Gucci-Savoy-medium-duffle-bag 1 (1).jpg" alt="" class="img">
+
+                                </div>
+                               <a href="./pages/detal.html"><button class="btn-add">Add To Cart</button></a>
+                            </div>
+                            <div class="card__text">
+                                <h1>Gucci duffle bag </h1>
+                                <span>
+                                    <p>$960</p>
+                                    <p>$1160</p>
+                                </span>
+                                <div class="star"><img src="./assets/images/Four Half Star.svg" alt="">
+                                    <p>(65)</p>
+                                </div>
+                            </div>
+                        </div>
+                         <div class="card">
+                            <div class="card__img">
+                                <div class="card__img-icon">
+                                    <img src="./assets/images/Discount percent.svg" alt="" class="img">
+                                    <img src="./assets/images/like.svg" alt="" class="img">
+                                    <img src="./assets/images/Fill Eye (1).svg" alt="" class="img">
+                                    <img src="./assets/images/gammaxx-l240-argb-1-500x500 1.jpg" alt="" class="kolon">
+
+                                </div>
+                                <a href="./pages/detal.html"><button class="btn-add">Add To Cart</button></a>
+                            </div>
+                            <div class="card__text">
+                                <h1>RGB liquid CPU Cooler</h1>
+                                <span>
+                                    <p>$160</p>
+                                    <p>$170</p>
+                                </span>
+                                <div class="star"><img src="./assets/images/Four Half Star.svg" alt="">
+                                    <p>(65)</p>
+                                </div>
+                            </div>
+                        </div>
+                         <div class="card">
+                            <div class="card__img">
+                                <div class="card__img-icon">
+                                    <img src="./assets/images/Discount percent.svg" alt="" class="img">
+                                    <img src="./assets/images/like.svg" alt="" class="img">
+                                    <img src="./assets/images/Fill Eye (1).svg" alt="" class="img">
+                                    <img src="./assets/images/javon.jpg" alt="" class="img">
+
+                                </div>
+                                <a href="./pages/detal.html"><button class="btn-add">Add To Cart</button></a>
+                            </div>
+                            <div class="card__text">
+                                <h1>Small BookSelf</h1>
+                                <span>
+                                    <p>$360</p>
+                                    
+                                </span>
+                                <div class="star"><img src="./assets/images/Five star.svg" alt="">
+                                    <p>(65)</p>
+                                </div>
+                            </div>
+                        </div>
+                         <div class="card">
+                            <div class="card__img">
+                                <div class="card__img-icon">
+                                    <img src="./assets/images/Discount percent (2).svg" alt="" class="img">
+                                    <img src="./assets/images/like.svg" alt="" class="img">
+                                    <img src="./assets/images/Fill Eye (1).svg" alt="" class="img">
+                                    <img src="./assets/images/672462_ZAH9D_5626_002_100_0000_Light-The-North-Face-x-Gucci-coat 1.jpg" alt="" class="img">
+
+                                </div>
+                                <a href="./pages/detal.html"><button class="btn-add">Add To Cart</button></a>
+                            </div>
+                            <div class="card__text">
+                                <h1>The north coat</h1>
+                                <span>
+                                    <p>$260</p>
+                                    <p>$360</p>
+                                </span>
+                                <div class="star"><img src="./assets/images/Five star.svg" alt="">
+                                    <p>(65)</p>
+                                </div>
+                            </div>
+                        </div>
+          </div>
+
+            </div>
+         </div>
+       </section>
+        <!-------------------Best section end ---------------->
+
+        <!-------------------Music section start ---------------->
+        
+        <section id="music">
+            <div class="container">
+                <div class="music-wrapper">
+                    <div class="music-left">
+                        <p>Categories</p>
+                        <h1>Enhance Your Music Experience</h1>
+                        <div class="music-hour">
+                            <div class="hours-circle">
+                                <h5>23</h5>
+                                <p>Hours</p>
+                            </div>
+                            <div class="hours-circle">
+                                <h5>05</h5>
+                                <p>Days</p>
+                            </div>
+                            <div class="hours-circle">
+                                <h5>59</h5>
+                                <p>Minutes</p>
+                            </div>
+                            <div class="hours-circle">
+                                <h5>35</h5>
+                                <p>Seconds</p>
+                            </div>
+                        </div>
+                        <button>Buy Now!</button>
+                    </div>
+                    <div class="music-right">
+                        <img src="./assets/images/kolonka.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+         <!-------------------Music section end ---------------->
+
+         <!-------------------Our section start ---------------->
+         <section id="our">
+            <div class="container">
+             <div class="our-wrapper">
+                 <div class="today-wrapper">
+            <div class="today"> </div>
+           <h3>Our Products</h3>
+            </div>
+            <div class="our-tittle">
+                <h1>Explore Our Products</h1>
+               <div>
+                 <img src="./assets/images/Fill With Left Arrow.svg" alt="">
+                <img src="./assets/images/Fill with Right Arrow.svg" alt="">
+               </div>
+            </div>
+
+            <div class="cards">
+        
+                         <div class="card">
+                            <div class="card__img">
+                                <div class="card__img-icon">
+                                     <img src="./assets/images/71RdoeXxtrL 1.jpg" alt="" class="card-photo">
+                                    <img src="./assets/images/like.svg" alt="" class="img">
+                                    <img src="./assets/images/Fill Eye (1).svg" alt="" class="img">
+                                   
+
+                                </div>
+                                <a href="./pages/detal.html"><button class="btn-add">Add To Cart</button></a>
+                            </div>
+                            <div class="card__text">
+                                <h1>Breed Dry Dog Food</h1>
+                                <div class="star-wrapper">
+                                     <span><p>$100</p></span>
+                                    
+                                    <img src="./assets/images/Three Star.svg" alt="">
+                                    <p  class="star-span">(35)</p>
+                                
+                                
+
+                                </div>
+                               
+                                
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card__img">
+                                <div class="card__img-icon">
+                                     <img src="./assets/images/eos-250d-03-500x500 1.jpg" alt="" class="card-photo">
+                                    <img src="./assets/images/like.svg" alt="" class="img">
+                                    <img src="./assets/images/Fill Eye (1).svg" alt="" class="img">
+                                   
+
+                                </div>
+                               <a href="./pages/detal.html"><button class="btn-add">Add To Cart</button></a>
+                            </div>
+                            <div class="card__text">
+                                <h1>CANON EOS DSLR Camera</h1>
+                                <div class="star-wrapper">
+                                     <span><p>$380</p></span>
+                                    
+                                    <img src="./assets/images/Four Star.svg" alt="">
+                                    <p  class="star-span">(95)</p>
+                                
+                                
+
+                                </div>
+                               
+                                
+                            </div>
+                        </div>
+                         <div class="card">
+                            <div class="card__img">
+                                <div class="card__img-icon">
+                                     <img src="./assets/images/ideapad-gaming-3i-01-500x500 1.jpg" alt="" class="card-photo">
+                                    <img src="./assets/images/like.svg" alt="" class="img">
+                                    <img src="./assets/images/Fill Eye (1).svg" alt="" class="img">
+                                   
+
+                                </div>
+                                <a href="./pages/detal.html"><button class="btn-add">Add To Cart</button></a>
+                            </div>
+                            <div class="card__text">
+                                <h1>ASUS FHD Gaming Laptop</h1>
+                                <div class="star-wrapper">
+                                     <span><p>$700</p></span>
+                                    
+                                    <img src="./assets/images/Five star.svg" alt="">
+                                    <p  class="star-span">(325)</p>
+                                
+                                
+
+                                </div>
+                               
+                                
+                            </div>
+                        </div>
+                         <div class="card">
+                            <div class="card__img">
+                                <div class="card__img-icon">
+                                     <img src="./assets/images/nivea.png" alt="" class="card-photo">
+                                    <img src="./assets/images/like.svg" alt="" class="img">
+                                    <img src="./assets/images/Fill Eye (1).svg" alt="" class="img">
+                                   
+
+                                </div>
+                               <a href="./pages/detal.html"><button class="btn-add">Add To Cart</button></a>
+                            </div>
+                            <div class="card__text">
+                                <h1>Curology Product Set </h1>
+                                <div class="star-wrapper">
+                                     <span><p>$500</p></span>
+                                    
+                                    <img src="./assets/images/Four Star.svg" alt="">
+                                    <p  class="star-span">(145)</p>
+                                
+                                
+
+                                </div>
+                               
+                                
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card__img">
+                                <div class="card__img-icon">
+                                     <img src="./assets/images/eos-250d-03-500x500 1.jpg" alt="" class="card-photo">
+                                    <img src="./assets/images/like.svg" alt="" class="img">
+                                    <img src="./assets/images/Fill Eye (1).svg" alt="" class="img">
+                                   
+
+                                </div>
+                                <a href="./pages/detal.html"><button class="btn-add">Add To Cart</button></a>
+                            </div>
+                            <div class="card__text">
+                                <h1>CANON EOS DSLR Camera</h1>
+                                <div class="star-wrapper">
+                                     <span><p>$380</p></span>
+                                    
+                                    <img src="./assets/images/Four Star.svg" alt="">
+                                    <p  class="star-span">(95)</p>
+                                
+                                
+
+                                </div>
+                               
+                                
+                            </div>
+                        </div>
+          </div>
+
+         <div class="cards">
+        
+                         <div class="card">
+                            <div class="card__img">
+                                <div class="card__img-icon">
+                                    <img src="./assets/images/New Button.svg" alt="" class="img">
+                                    <img src="./assets/images/like.svg" alt="" class="img">
+                                    <img src="./assets/images/Fill Eye (1).svg" alt="" class="img">
+                                    <img src="./assets/images/New-Mercedes-Benz-Gtr-Licensed-Ride-on-Car-Kids-Electric-Toy-Car 1.jpg" alt="" class="img">
+
+                                </div>
+                                <a href="./pages/detal.html"><button class="btn-add">Add To Cart</button></a>
+                            </div>
+                            <div class="card__text">
+                                <h1>Kids Electric Car</h1>
+                                <div class="star-wrapper">
+                                     <span><p>$960</p></span>
+                                    
+                                    <img src="./assets/images/Five star.svg" alt="">
+                                    <p  class="star-span">(65)</p>
+                                </div>
+                                <div class="card-colors">
+                                    <img src="./assets/images/Colour Chnage.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card__img">
+                                <div class="card__img-icon">
+                                     <img src="./assets/images/Copa_Sense 1.png" alt="" class="card-photo">
+                                    <img src="./assets/images/like.svg" alt="" class="img">
+                                    <img src="./assets/images/Fill Eye (1).svg" alt="" class="img">
+                                   
+
+                                </div>
+                               <a href="./pages/detal.html"><button class="btn-add">Add To Cart</button></a>
+                            </div>
+                            <div class="card__text">
+                                <h1>Jr. Zoom Soccer Cleats</h1>
+                                <div class="star-wrapper">
+                                     <span><p>$1160</p></span>
+                                    
+                                    <img src="./assets/images/Five star.svg" alt="">
+                                    <p  class="star-span">(35)</p>
+                                </div>
+                                <div><img src="./assets/images/Colour Chnage (1).svg" alt=""></div>
+                            </div>
+                        </div>
+                          <div class="card">
+                            <div class="card__img">
+                                <div class="card__img-icon">
+                                    <img src="./assets/images/New Button.svg" alt="" class="img">
+                                    <img src="./assets/images/like.svg" alt="" class="img">
+                                    <img src="./assets/images/Fill Eye (1).svg" alt="" class="img">
+                                    <img src="./assets/images/GP11_PRD3 1.png" alt="" class="img">
+
+                                </div>
+                               <a href="./pages/detal.html"><button class="btn-add">Add To Cart</button></a>
+                            </div>
+                            <div class="card__text">
+                                <h1>GP11 Shooter USB Gamepad</h1>
+                                <div class="star-wrapper">
+                                     <span><p>$660</p></span>
+                                    
+                                    <img src="./assets/images/Four Half Star.svg" alt="">
+                                    <p  class="star-span">(55)</p>
+                                </div>
+                                <div class="card-colors">
+                                    <img src="./assets/images/Colour Chnage (2).svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                         <div class="card">
+                            <div class="card__img">
+                                <div class="card__img-icon">
+                                     <img src="./assets/images/kurtka.png" alt="" class="card-photo">
+                                    <img src="./assets/images/like.svg" alt="" class="img">
+                                    <img src="./assets/images/Fill Eye (1).svg" alt="" class="img">
+                                   
+
+                                </div>
+                               <a href="./pages/detal.html"><button class="btn-add">Add To Cart</button></a>
+                            </div>
+                            <div class="card__text">
+                                <h1>Quilted Satin Jacket </h1>
+                                <div class="star-wrapper">
+                                     <span><p>$660</p></span>
+                                    
+                                    <img src="./assets/images/Four Half Star.svg" alt="">
+                                    <p  class="star-span">(55)</p>
+                                </div>
+                                       <div><img src="./assets/images/Colour Chnage (2).svg" alt=""></div>
+                            </div>
+                        </div>
+                          <div class="card">
+                            <div class="card__img">
+                                <div class="card__img-icon">
+                                    <img src="./assets/images/New Button.svg" alt="" class="img">
+                                    <img src="./assets/images/like.svg" alt="" class="img">
+                                    <img src="./assets/images/Fill Eye (1).svg" alt="" class="img">
+                                    <img src="./assets/images/New-Mercedes-Benz-Gtr-Licensed-Ride-on-Car-Kids-Electric-Toy-Car 1.jpg" alt="" class="img">
+
+                                </div>
+                                <a href="./pages/detal.html"><button class="btn-add">Add To Cart</button></a>
+                            </div>
+                            <div class="card__text">
+                                <h1>Kids Electric Car</h1>
+                                <div class="star-wrapper">
+                                     <span><p>$960</p></span>
+                                    
+                                    <img src="./assets/images/Five star.svg" alt="">
+                                    <p  class="star-span">(65)</p>
+                                </div>
+                                <div class="card-colors">
+                                    <img src="./assets/images/Colour Chnage.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+          </div>
+                <div class="view-btn">
+                <button>View All Products</button>
+               </div>
+             </div>
+            </div>
+         </section>
+         <!-------------------Our section end ---------------->
+
+
+        <!-------------------Arrival section start ---------------->
+         <section id="arrival">
+            <div class="container">
+                 <div class="categories-wrapper">
+            <div class="today-wrapper">
+            <div class="today"> </div>
+           <h3>Featured</h3>
+            </div>
+            <div class="browse">
+               <h1>New Arrival</h1>
+            </div>
+            </div>
+
+                        <div class="gridwrap">
+                            <div class="card1">
+                                <img src="./assets/images/grid-1.png" alt="">
+
+                            </div>
+
+                            <div class="card2"> 
+                                <img src="./assets/images/grid-2.png" alt="">
+
+                            </div>
+
+                            <div class="card3">
+                                <img src="./assets/images/grid-3.png" alt="">
+                            </div>
+
+                            <div class="card4">
+                                <img src="./assets/images/grid-4.png" alt="">
+
+                            </div>
+
+                        </div>
+                        <div class="call-wrapper">
+                            <div class="call">
+                                <img src="./assets/images/Services.svg" alt="">
+                                <h5>FREE AND FAST DELIVERY</h5>
+                                <p> Free delivery for all orders over $140</p>
+                            </div>
+                            <div class="call">
+                                <img src="./assets/images/Services (1).svg" alt="">
+                                <h5>24/7 CUSTOMER SERVICE</h5>
+                                <p>Friendly 24/7 customer support</p>
+                            </div>
+                            <div class="call">
+                                <img src="./assets/images/Services (2).svg" alt="" class="img-call">
+                                <h5>MONEY BACK GUARANTEE</h5>
+                                <p>We reurn money within 30 days</p>
+                            </div>
+                        </div>
+                        <div class="with-up">
+                            <a href="./index.html"><img src="./assets/images/Fill with Up Arrow.svg" alt=""></a>
+                        </div>
+                    </div>
+         </section>
+         <!-------------------Arrival section end ---------------->
+    </main>
+
+    <footer>
+      <div class="container">
+        <div class="footer-ul-wrapper">
+            <nav class="footer-nav">
+                <ul class="footer-ul-1">
+                    <li><a class="footer-nav-a" href="#"><h3>Exclusive</h3></a></li>
+                     <li><a class="footer-nav-a" href="#"><h4>Subscribe</h4></a></li>
+                      <li><a class="footer-nav-a" href="#">Get 10% off your first order</a></li>
+                      <div class="footer-input">
+                         <input   type="text" placeholder="Enter your email">
+                         <img src="./assets/images/icon-send.svg" alt="">
+                      </div>
+                      
+                </ul>
+            </nav>
+
+            <nav class="footer-nav">
+                <ul class="footer-ul-1">
+                    <li><a class="footer-nav-a" href="#"><h5>Support</h5></a></li>
+                     <li><a class="footer-nav-a" href="#">111 Bijoy sarani, Dhaka,  DH 1515, Bangladesh.</a></li>
+                      <li><a class="footer-nav-a" href="#">exclusive@gmail.com</a></li>
+                      <li><a class="footer-nav-a" href="#">+88015-88888-9999</a></li>
+                      
+                </ul>
+            </nav>
+
+            <nav class="footer-nav">
+                <ul class="footer-ul-1">
+                    <li><a class="footer-nav-a" href="#"><h5>Account</h5></a></li>
+                     <li><a class="footer-nav-a" href="#">My Account</a></li>
+                      <li><a class="footer-nav-a" href="#">Login / Register</a></li>
+                      <li><a class="footer-nav-a" href="#">Cart</a></li>
+                      <li><a class="footer-nav-a" href="#">Wishlist</a></li>
+                      <li><a class="footer-nav-a" href="#">Shop</a></li>
+                </ul>
+            </nav>
+             <nav class="footer-nav">
+                <ul class="footer-ul-1">
+                    <li><a class="footer-nav-a" href="#"><h5>Quick Link</h5></a></li>
+                     <li><a class="footer-nav-a" href="#">Privacy Policy</a></li>
+                      <li><a class="footer-nav-a" href="#">Terms Of Use</a></li>
+                      <li><a class="footer-nav-a" href="#">FAQ</a></li>
+                      <li><a class="footer-nav-a" href="#">Contact</a></li>
+                </ul>
+            </nav>
+           <div class="social-con">
+             <nav class="footer-nav">
+                <ul class="footer-ul-1">
+                    <li class="footer-nav-a"><h5>Download App</h5></li>
+                    <p>Save $3 with App New User Only</p>
+                    <div class="download">
+                       <div>
+                        <img src="./assets/images/Qr Code.svg" alt="">
+                    </div>
+                    <div>
+                        <img src="./assets/images/GooglePlay.svg" alt="">
+                        <img src="./assets/images/AppStore.svg" alt="">
+                    </div>
+                    </div>
+                   <div class="social">
+                      <img src="./assets/images/Icon-Facebook.svg" alt="">
+                      <img src="./assets/images/Group (1).svg" alt="">
+                      <img src="./assets/images/icon-instagram.svg" alt="">
+                      <img src="./assets/images/Icon-Linkedin.svg" alt="">
+                   </div>
+                </ul>
+            </nav>
+           </div>
+        </div>
+        <div class="footer-end">
+            <img src="./assets/images/Group (2).svg" alt="">
+            <h5>Copyright Rimel 2022. All right reserved</h5>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+</html>
+

@@ -1,0 +1,217 @@
+.checkout-wrapper {
+  display: flex;
+  gap: 173px;
+}
+
+.checkout-list-wrapper {
+  margin-top: 80px;
+  display: flex;
+  gap: 10px;
+  .checkout-list {
+    list-style-type: none;
+    .checkout-list-link {
+      text-decoration: none;
+      color: var(--Text2, #000);
+
+      /* Title/14PX Regular */
+      font-family: Poppins;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 21px; /* 150% */
+      opacity: 0.5;
+    }
+    .checkout-list-link-5 {
+      text-decoration: none;
+      color: var(--Text2, #000);
+
+      /* Title/14PX Regular */
+      font-family: Poppins;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 21px; /* 150% */
+    }
+  }
+}
+
+.checkout-tittle p {
+  margin-top: 80px;
+  color: var(--Text2, #000);
+
+  /* Heading/36PX Medium */
+  font-family: Inter;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px; /* 83.333% */
+  letter-spacing: 1.44px;
+}
+
+.checkout-inputes {
+  margin-top: 50px;
+  .checkout-input {
+    margin-top: 32px;
+    p {
+      color: var(--Text2, #000);
+
+      /* Title/16PX Regular */
+      font-family: Poppins;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 24px; /* 150% */
+      opacity: 0.4;
+    }
+    input {
+      width: 470px;
+      height: 50px;
+      border-radius: 4px;
+      background: var(--Secondary, #f5f5f5);
+      border: none;
+    }
+  }
+}
+.checkout-inputes-right {
+  margin-top: 72px;
+
+  margin-left: -60px;
+
+  .inputes-right-card {
+    margin-top: 32px;
+    width: 425px;
+    height: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    p {
+      color: #000;
+
+      /* Title/16PX Regular */
+      font-family: Poppins;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 24px; /* 150% */
+    }
+    .right-card-img {
+      display: flex;
+      gap: 24px;
+      align-items: center;
+    }
+  }
+}
+.check-wrapper {
+  padding: 32px 0px;
+
+  .total-tittle {
+    color: var(--Text2, #000);
+
+    /* Title/20PX Medium */
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; /* 140% */
+    margin-bottom: 24px;
+  }
+}
+.check-sub {
+  display: flex;
+  justify-content: space-between;
+
+  border-bottom: 1px solid silver;
+  padding: 16px 0px;
+  width: 425px;
+  h3 {
+    color: var(--Text2, #000);
+
+    /* Title/16PX Regular */
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+  }
+}
+
+.check-sub-end {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 0px;
+  width: 425px;
+  h3 {
+    color: var(--Text2, #000);
+
+    /* Title/16PX Regular */
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+  }
+}
+.check-bank {
+  margin-top: 16px;
+  display: flex;
+  gap: 155px;
+  align-items: center;
+  p {
+    color: #000;
+
+    /* Title/16PX Regular */
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+  }
+
+  .check-radio {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+  }
+}
+.right-btn-end {
+  margin-top: 32px;
+  width: 190px;
+  display: flex;
+  padding: 16px 48px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 4px;
+  background: var(--Button2, #db4444);
+  color: var(--Text, #fafafa);
+  border: #db4444;
+
+  /* Title/16PX Medium */
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+}
+.chack-cashbox {
+  margin-top: 24px;
+  margin-bottom: 140px;
+  display: flex;
+  gap: 16px;
+
+  align-items: center;
+  p {
+    color: #000;
+
+    /* Title/16PX Regular */
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+  }
+  input{
+    height: 24px;
+    width: 24px;
+  }
+}

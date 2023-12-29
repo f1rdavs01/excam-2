@@ -1,0 +1,132 @@
+.signup-wrapper {
+  display: flex;
+  gap: 80px;
+  align-items: center;
+  margin-top: 60px;
+  margin-bottom: 140px;
+}
+
+.signup-left {
+  img {
+    width: 819px;
+    height: 706px;
+
+  }
+  margin-left: -150px;
+}
+
+.signup-right {
+  h1 {
+    color: var(--Text2, #000);
+
+    /* Heading/36PX Medium */
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px; /* 83.333% */
+    letter-spacing: 1.44px;
+  }
+  p {
+    color: var(--Text2, #000);
+
+    /* Title/16PX Regular */
+    font-family: inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+  }
+  input {
+    display: block;
+    border: none;
+    width: 370px;
+    height: 32px;
+    font-family: poppins;
+    border-bottom: 1px solid silver;
+    margin-top: 50px;
+  }
+}
+.signup-btn-wrapper {
+  margin-top: 40px;
+  a{
+    text-decoration: none;
+  }
+  .signup-btn {
+    display: flex;
+    justify-content: center;
+    width: 371px;
+    padding: 16px 0px;
+    margin-top: 16px;
+    border-radius: 4px;
+    border: none;
+
+    /* Title/16PX Medium */
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+    &:hover {
+      background: var(--Button2, #db4444);
+      color: #fafafa;
+      cursor: pointer;
+    }
+  }
+  .google-btn {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    width: 371px;
+    padding: 16px 0px;
+    margin-top: 16px;
+    border-radius: 4px;
+    background-color: #ffffff;
+    border: 1px solid black;
+
+    /* Title/16PX Medium */
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+.accaunt {
+  margin-top: 32px;
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.accaunt-login-1 {
+  text-decoration: none;
+  list-style-type: none;
+  color: var(--Text2, #000);
+
+  /* Title/16PX Regular */
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  opacity: 0.7;
+}
+
+.accaunt-login-2 {
+  text-decoration: none;
+  list-style-type: none;
+  color: var(--Text2, #000);
+
+  /* Title/16PX Medium */
+  font-family: Poppins;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  opacity: 0.8;
+  border-bottom: 1px solid silver;
+}

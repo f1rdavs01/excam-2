@@ -1,0 +1,216 @@
+.account-tittle-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.checkout-list-wrapper {
+  p {
+    color: var(--Text2, #000);
+
+    /* Title/14PX Regular */
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px; /* 150% */
+    span {
+      color: var(--Secondary-2, #db4444);
+
+      /* Title/14PX Regular */
+      font-family: Poppins;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 21px;
+    }
+  }
+}
+
+.edit-wrapper {
+  margin-top: 80px;
+  display: flex;
+  gap: 148px;
+}
+
+.edit-left-wrapper {
+  margin-top: -24px;
+}
+.edit-left {
+  h5 {
+    margin-top: 24px;
+    color: var(--Text2, #000);
+
+    /* Title/16PX Medium */
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+  }
+  a {
+    text-decoration: none;
+    list-style-type: none;
+  }
+  p {
+    color: var(--Text2, #000);
+
+    /* Title/16PX Regular */
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    opacity: 0.5;
+  }
+  .edit-left-p {
+    margin-left: 35px;
+    margin-top: 16px;
+  }
+  .edit-left-p-red {
+    color: var(--Secondary-2, #db4444);
+
+    /* Title/16PX Regular */
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+  }
+}
+.edit-right {
+  width: 870px;
+  height: 630px;
+  border-radius: 4px;
+  background: var(--Primary, #fff);
+  margin-bottom: 140px;
+
+  /* Categogy/5 */
+  box-shadow: 0px 1px 13px 0px rgba(0, 0, 0, 0.05);
+}
+.edit-right-in {
+  padding: 40px 80px;
+  h3 {
+    color: var(--Secondary-2, #db4444);
+
+    /* Title/20PX Medium */
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; /* 140% */
+  }
+}
+.four-input-wrapper {
+  display: flex;
+  gap: 50px;
+
+  .input {
+    margin-top: 19px;
+    h5 {
+      color: var(--Text2, #000);
+
+      /* Title/16PX Regular */
+      font-family: Poppins;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 24px; /* 150% */
+    }
+    input {
+      width: 330px;
+      height: 50px;
+      align-items: center;
+      border-radius: 4px;
+      border: 1px solid #f5f5f5;
+      padding: 24px;
+
+      background: var(--Secondary, #f5f5f5);
+      color: var(--Text2, #000);
+
+      /* Title/16PX Regular */
+      font-family: Poppins;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 24px; /* 150% */
+    }
+  }
+}
+.three-input-wrapper {
+  margin-top: 24px;
+  h5 {
+    color: var(--Text2, #000);
+
+    /* Title/16PX Regular */
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+  }
+}
+
+.three-input {
+  input {
+    width: 710px;
+    height: 50px;
+    margin-top: 16px;
+
+    border-radius: 4px;
+    border: 1px solid #f5f5f5;
+    padding: 24px;
+
+    background: var(--Secondary, #f5f5f5);
+
+    color: var(--Text2, #000);
+
+    /* Title/16PX Regular */
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+  }
+}
+.account-btn-flex {
+  display: flex;
+  justify-content: end;
+  margin-top: 24px;
+}
+.account-btn-end {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  margin-right: 0px;
+  h5 {
+    color: var(--Text2, #000);
+
+    /* Title/16PX Regular */
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+  }
+  button {
+    display: flex;
+    padding: 16px 48px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 4px;
+    background: var(--Button2, #db4444);
+    border: #db4444;
+    color: var(--Text, #fafafa);
+
+    /* Title/16PX Medium */
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}

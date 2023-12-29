@@ -1,0 +1,132 @@
+header {
+  width: 100%;
+  border-bottom: 1px solid silver;
+ 
+  
+  
+
+  // example
+
+  .nav {
+    display: flex;
+    height: 70px;
+    align-items: center;
+    margin-top: 30px;
+
+    &__logo {
+      font-style: 24px;
+      cursor: pointer;
+    }
+
+    &__list {
+      display: flex;
+      gap: 48px;
+      list-style-type: none;
+      margin-left: 170px;
+       .brd{
+        border-bottom: 2px solid silver;
+       }
+      &--item {
+        &-link {
+          text-decoration: none;
+          color: var(--Text2, #000);
+          text-align: center;
+
+          /* Title/16PX Regular */
+          font-family: Poppins;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 24px; /* 150% */
+          &:hover {
+            color: gray;
+          }
+        }
+      }
+    }
+  }
+}
+.language-wrapper {
+  display: flex;
+  background: var(--Button, #000);
+  align-items: center;
+  justify-content: center;
+  gap: 350px;
+  padding: 12px;
+}
+
+.language {
+  display: flex;
+  align-items: center;
+
+  color: var(--Text, #fafafa);
+
+  /* Title/14PX Regular */
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px; /* 150% */
+}
+
+.shopnow {
+  color: var(--Text, #fafafa);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+
+  text-decoration-line: underline;
+  list-style-type: none;
+  color: #fafafa;
+  margin-left: 8px;
+}
+
+.sale {
+  display: flex;
+  margin-left: 250px;
+}
+
+.sale p {
+  color: var(--Text, #fafafa);
+
+  /* Title/14PX Regular */
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px; /* 150% */
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.search {
+  margin-left: 178px;
+  padding: 7px 12px 7px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 4px;
+  background: var(--Secondary, #f5f5f5);
+  margin-right: 24px;
+
+  input {
+    border: none;
+    background: var(--Secondary, #f5f5f5);
+    
+    color: var(--Text2, #000);
+
+    /* Title/12PX Regular */
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px; /* 150% */
+  }
+}
+
+.basket-header {
+  display: flex;
+  gap: 16px;
+}
